@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4564DF7418DEADC200CB6DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4564DF7318DEADC200CB6DDC /* Foundation.framework */; };
+		4564DF7618DEADC200CB6DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4564DF7518DEADC200CB6DDC /* CoreGraphics.framework */; };
+		4564DF7818DEADC200CB6DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4564DF7718DEADC200CB6DDC /* UIKit.framework */; };
+		4564DF7E18DEADC200CB6DDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4564DF7C18DEADC200CB6DDC /* InfoPlist.strings */; };
+		4564DF8018DEADC200CB6DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564DF7F18DEADC200CB6DDC /* main.m */; };
+		4564DF8418DEADC200CB6DDC /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564DF8318DEADC200CB6DDC /* CCAppDelegate.m */; };
+		4564DF8718DEADC200CB6DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4564DF8518DEADC200CB6DDC /* Main.storyboard */; };
+		4564DF8A18DEADC200CB6DDC /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564DF8918DEADC200CB6DDC /* CCViewController.m */; };
+		4564DF8C18DEADC200CB6DDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4564DF8B18DEADC200CB6DDC /* Images.xcassets */; };
+		4564DF9318DEADC300CB6DDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4564DF9218DEADC300CB6DDC /* XCTest.framework */; };
+		4564DF9418DEADC300CB6DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4564DF7318DEADC200CB6DDC /* Foundation.framework */; };
+		4564DF9518DEADC300CB6DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4564DF7718DEADC200CB6DDC /* UIKit.framework */; };
+		4564DF9D18DEADC300CB6DDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4564DF9B18DEADC300CB6DDC /* InfoPlist.strings */; };
+		4564DF9F18DEADC300CB6DDC /* Prep_For_Pirate_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564DF9E18DEADC300CB6DDC /* Prep_For_Pirate_AssignmentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4564DF9618DEADC300CB6DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4564DF6818DEADC200CB6DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4564DF6F18DEADC200CB6DDC;
+			remoteInfo = "Prep For Pirate Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4564DF7018DEADC200CB6DDC /* Prep For Pirate Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prep For Pirate Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4564DF7318DEADC200CB6DDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4564DF7518DEADC200CB6DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4564DF7718DEADC200CB6DDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4564DF7B18DEADC200CB6DDC /* Prep For Pirate Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prep For Pirate Assignment-Info.plist"; sourceTree = "<group>"; };
+		4564DF7D18DEADC200CB6DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4564DF7F18DEADC200CB6DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4564DF8118DEADC200CB6DDC /* Prep For Pirate Assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prep For Pirate Assignment-Prefix.pch"; sourceTree = "<group>"; };
+		4564DF8218DEADC200CB6DDC /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
+		4564DF8318DEADC200CB6DDC /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
+		4564DF8618DEADC200CB6DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4564DF8818DEADC200CB6DDC /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		4564DF8918DEADC200CB6DDC /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		4564DF8B18DEADC200CB6DDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4564DF9118DEADC300CB6DDC /* Prep For Pirate AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prep For Pirate AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4564DF9218DEADC300CB6DDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4564DF9A18DEADC300CB6DDC /* Prep For Pirate AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prep For Pirate AssignmentTests-Info.plist"; sourceTree = "<group>"; };
+		4564DF9C18DEADC300CB6DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4564DF9E18DEADC300CB6DDC /* Prep_For_Pirate_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prep_For_Pirate_AssignmentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4564DF6D18DEADC200CB6DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564DF7618DEADC200CB6DDC /* CoreGraphics.framework in Frameworks */,
+				4564DF7818DEADC200CB6DDC /* UIKit.framework in Frameworks */,
+				4564DF7418DEADC200CB6DDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564DF8E18DEADC300CB6DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564DF9318DEADC300CB6DDC /* XCTest.framework in Frameworks */,
+				4564DF9518DEADC300CB6DDC /* UIKit.framework in Frameworks */,
+				4564DF9418DEADC300CB6DDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4564DF6718DEADC200CB6DDC = {
+			isa = PBXGroup;
+			children = (
+				4564DF7918DEADC200CB6DDC /* Prep For Pirate Assignment */,
+				4564DF9818DEADC300CB6DDC /* Prep For Pirate AssignmentTests */,
+				4564DF7218DEADC200CB6DDC /* Frameworks */,
+				4564DF7118DEADC200CB6DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4564DF7118DEADC200CB6DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4564DF7018DEADC200CB6DDC /* Prep For Pirate Assignment.app */,
+				4564DF9118DEADC300CB6DDC /* Prep For Pirate AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4564DF7218DEADC200CB6DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4564DF7318DEADC200CB6DDC /* Foundation.framework */,
+				4564DF7518DEADC200CB6DDC /* CoreGraphics.framework */,
+				4564DF7718DEADC200CB6DDC /* UIKit.framework */,
+				4564DF9218DEADC300CB6DDC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4564DF7918DEADC200CB6DDC /* Prep For Pirate Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				4564DF8218DEADC200CB6DDC /* CCAppDelegate.h */,
+				4564DF8318DEADC200CB6DDC /* CCAppDelegate.m */,
+				4564DF8518DEADC200CB6DDC /* Main.storyboard */,
+				4564DF8818DEADC200CB6DDC /* CCViewController.h */,
+				4564DF8918DEADC200CB6DDC /* CCViewController.m */,
+				4564DF8B18DEADC200CB6DDC /* Images.xcassets */,
+				4564DF7A18DEADC200CB6DDC /* Supporting Files */,
+			);
+			path = "Prep For Pirate Assignment";
+			sourceTree = "<group>";
+		};
+		4564DF7A18DEADC200CB6DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4564DF7B18DEADC200CB6DDC /* Prep For Pirate Assignment-Info.plist */,
+				4564DF7C18DEADC200CB6DDC /* InfoPlist.strings */,
+				4564DF7F18DEADC200CB6DDC /* main.m */,
+				4564DF8118DEADC200CB6DDC /* Prep For Pirate Assignment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4564DF9818DEADC300CB6DDC /* Prep For Pirate AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				4564DF9E18DEADC300CB6DDC /* Prep_For_Pirate_AssignmentTests.m */,
+				4564DF9918DEADC300CB6DDC /* Supporting Files */,
+			);
+			path = "Prep For Pirate AssignmentTests";
+			sourceTree = "<group>";
+		};
+		4564DF9918DEADC300CB6DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4564DF9A18DEADC300CB6DDC /* Prep For Pirate AssignmentTests-Info.plist */,
+				4564DF9B18DEADC300CB6DDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4564DF6F18DEADC200CB6DDC /* Prep For Pirate Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4564DFA218DEADC300CB6DDC /* Build configuration list for PBXNativeTarget "Prep For Pirate Assignment" */;
+			buildPhases = (
+				4564DF6C18DEADC200CB6DDC /* Sources */,
+				4564DF6D18DEADC200CB6DDC /* Frameworks */,
+				4564DF6E18DEADC200CB6DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prep For Pirate Assignment";
+			productName = "Prep For Pirate Assignment";
+			productReference = 4564DF7018DEADC200CB6DDC /* Prep For Pirate Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4564DF9018DEADC300CB6DDC /* Prep For Pirate AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4564DFA518DEADC300CB6DDC /* Build configuration list for PBXNativeTarget "Prep For Pirate AssignmentTests" */;
+			buildPhases = (
+				4564DF8D18DEADC300CB6DDC /* Sources */,
+				4564DF8E18DEADC300CB6DDC /* Frameworks */,
+				4564DF8F18DEADC300CB6DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4564DF9718DEADC300CB6DDC /* PBXTargetDependency */,
+			);
+			name = "Prep For Pirate AssignmentTests";
+			productName = "Prep For Pirate AssignmentTests";
+			productReference = 4564DF9118DEADC300CB6DDC /* Prep For Pirate AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4564DF6818DEADC200CB6DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Austin McCarthy";
+				TargetAttributes = {
+					4564DF9018DEADC300CB6DDC = {
+						TestTargetID = 4564DF6F18DEADC200CB6DDC;
+					};
+				};
+			};
+			buildConfigurationList = 4564DF6B18DEADC200CB6DDC /* Build configuration list for PBXProject "Prep For Pirate Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4564DF6718DEADC200CB6DDC;
+			productRefGroup = 4564DF7118DEADC200CB6DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4564DF6F18DEADC200CB6DDC /* Prep For Pirate Assignment */,
+				4564DF9018DEADC300CB6DDC /* Prep For Pirate AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4564DF6E18DEADC200CB6DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564DF8C18DEADC200CB6DDC /* Images.xcassets in Resources */,
+				4564DF7E18DEADC200CB6DDC /* InfoPlist.strings in Resources */,
+				4564DF8718DEADC200CB6DDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564DF8F18DEADC300CB6DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564DF9D18DEADC300CB6DDC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4564DF6C18DEADC200CB6DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564DF8418DEADC200CB6DDC /* CCAppDelegate.m in Sources */,
+				4564DF8018DEADC200CB6DDC /* main.m in Sources */,
+				4564DF8A18DEADC200CB6DDC /* CCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564DF8D18DEADC300CB6DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564DF9F18DEADC300CB6DDC /* Prep_For_Pirate_AssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4564DF9718DEADC300CB6DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4564DF6F18DEADC200CB6DDC /* Prep For Pirate Assignment */;
+			targetProxy = 4564DF9618DEADC300CB6DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4564DF7C18DEADC200CB6DDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4564DF7D18DEADC200CB6DDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4564DF8518DEADC200CB6DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4564DF8618DEADC200CB6DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4564DF9B18DEADC300CB6DDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4564DF9C18DEADC300CB6DDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4564DFA018DEADC300CB6DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4564DFA118DEADC300CB6DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4564DFA318DEADC300CB6DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prep For Pirate Assignment/Prep For Pirate Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Prep For Pirate Assignment/Prep For Pirate Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4564DFA418DEADC300CB6DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prep For Pirate Assignment/Prep For Pirate Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Prep For Pirate Assignment/Prep For Pirate Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4564DFA618DEADC300CB6DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prep For Pirate Assignment.app/Prep For Pirate Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prep For Pirate Assignment/Prep For Pirate Assignment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Prep For Pirate AssignmentTests/Prep For Pirate AssignmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4564DFA718DEADC300CB6DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prep For Pirate Assignment.app/Prep For Pirate Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prep For Pirate Assignment/Prep For Pirate Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Prep For Pirate AssignmentTests/Prep For Pirate AssignmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4564DF6B18DEADC200CB6DDC /* Build configuration list for PBXProject "Prep For Pirate Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4564DFA018DEADC300CB6DDC /* Debug */,
+				4564DFA118DEADC300CB6DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4564DFA218DEADC300CB6DDC /* Build configuration list for PBXNativeTarget "Prep For Pirate Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4564DFA318DEADC300CB6DDC /* Debug */,
+				4564DFA418DEADC300CB6DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4564DFA518DEADC300CB6DDC /* Build configuration list for PBXNativeTarget "Prep For Pirate AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4564DFA618DEADC300CB6DDC /* Debug */,
+				4564DFA718DEADC300CB6DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4564DF6818DEADC200CB6DDC /* Project object */;
+}
