@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
                BuildableName = "Prep For Pirate Assignment.app"
-               BlueprintName = "Prep For Pirate Assignment"
-               ReferencedContainer = "container:Prep For Pirate Assignment.xcodeproj">
+               BlueprintName = "Pirate Adventure"
+               ReferencedContainer = "container:Pirate Adventure.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4564DF9018DEADC300CB6DDC"
                BuildableName = "Prep For Pirate AssignmentTests.xctest"
-               BlueprintName = "Prep For Pirate AssignmentTests"
-               ReferencedContainer = "container:Prep For Pirate Assignment.xcodeproj">
+               BlueprintName = "Pirate AdventureTests"
+               ReferencedContainer = "container:Pirate Adventure.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
             BuildableName = "Prep For Pirate Assignment.app"
-            BlueprintName = "Prep For Pirate Assignment"
-            ReferencedContainer = "container:Prep For Pirate Assignment.xcodeproj">
+            BlueprintName = "Pirate Adventure"
+            ReferencedContainer = "container:Pirate Adventure.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
             BuildableName = "Prep For Pirate Assignment.app"
-            BlueprintName = "Prep For Pirate Assignment"
-            ReferencedContainer = "container:Prep For Pirate Assignment.xcodeproj">
+            BlueprintName = "Pirate Adventure"
+            ReferencedContainer = "container:Pirate Adventure.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
             BuildableName = "Prep For Pirate Assignment.app"
-            BlueprintName = "Prep For Pirate Assignment"
-            ReferencedContainer = "container:Prep For Pirate Assignment.xcodeproj">
+            BlueprintName = "Pirate Adventure"
+            ReferencedContainer = "container:Pirate Adventure.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
