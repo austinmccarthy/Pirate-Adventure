@@ -28,7 +28,7 @@
     
     self.currentPoint = CGPointMake(0, 0);
     
-    [self updateCharacterStatsForArmor:nil withWapons:nil withHealthEffect:0];
+    [self updateCharacterStatsForArmor:nil withWeapons:nil withHealthEffect:0];
     [self updateTile];
     [self updateButtons];
 }
@@ -87,7 +87,7 @@
 - (IBAction)actionButtonPressed:(UIButton *)sender
 {
     CCTile *tile = [[self.tiles objectAtIndex:self.currentPoint.x] objectAtIndex:self.currentPoint.y];
-    [self updateCharacterStatsForArmor:tile.armor withWapons:tile.weapon withHealthEffect:tile.healthEffect];
+    [self updateCharacterStatsForArmor:tile.armor withWeapons:tile.weapon withHealthEffect:tile.healthEffect];
     [self.actionButton setTitle:@"Use Compass" forState:UIControlStateDisabled];
 
     if (tile.boss != 0 && tile.tileUsed == NO){
@@ -240,15 +240,18 @@
     }
 }
 
--(void)updateCharacterStatsForArmor:(CCArmor *)armor withWapons:(CCWeapon *)weapon withHealthEffect:(int)healthEffect
+-(void)updateCharacterStatsForArmor:(CCArmor *)armor withWeapons:(CCWeapon *)weapon withHealthEffect:(int)healthEffect
 {
     if (armor != nil){
         self.character.health = self.character.health - self.character.armor.health + armor.health;
         self.character.armor = armor;
+        NSLog(@"updateArmor!");
     }
     else if (weapon != nil){
         self.character.damage = self.character.damage - self.character.weapon.damage + weapon.damage;
         self.character.weapon = weapon;
+        NSLog(@"updateWeapon!");
+
     }
     else if (healthEffect != 0){
         self.character.health = self.character.health + healthEffect;

@@ -36,6 +36,7 @@
     tile2.actionButtonName = @"Take Armor";
     tile2.tileUsed = NO;
     tile2.boss = 1;
+    tile2.armor = armor1;
     
     CCTile *tile3 = [[CCTile alloc] init];
     tile3.headline = @"A little slap and tickle";
@@ -61,6 +62,8 @@
     tile4.actionButtonName = @"Adopt Parrot";
     tile4.tileUsed = NO;
     tile4.boss = 1;
+    tile4.armor = parrotArmor;
+    
     
     CCTile *tile5 = [[CCTile alloc] init];
     tile5.headline = @"Yo dog, I heard you like guns?";

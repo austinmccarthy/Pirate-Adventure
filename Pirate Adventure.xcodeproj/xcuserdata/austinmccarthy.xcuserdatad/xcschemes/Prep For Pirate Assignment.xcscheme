@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
-               BuildableName = "Prep For Pirate Assignment.app"
+               BuildableName = "Pirate Adventure.app"
                BlueprintName = "Pirate Adventure"
                ReferencedContainer = "container:Pirate Adventure.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4564DF9018DEADC300CB6DDC"
-               BuildableName = "Prep For Pirate AssignmentTests.xctest"
+               BuildableName = "Pirate AdventureTests.xctest"
                BlueprintName = "Pirate AdventureTests"
                ReferencedContainer = "container:Pirate Adventure.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
-            BuildableName = "Prep For Pirate Assignment.app"
+            BuildableName = "Pirate Adventure.app"
             BlueprintName = "Pirate Adventure"
             ReferencedContainer = "container:Pirate Adventure.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
-            BuildableName = "Prep For Pirate Assignment.app"
+            BuildableName = "Pirate Adventure.app"
             BlueprintName = "Pirate Adventure"
             ReferencedContainer = "container:Pirate Adventure.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4564DF6F18DEADC200CB6DDC"
-            BuildableName = "Prep For Pirate Assignment.app"
+            BuildableName = "Pirate Adventure.app"
             BlueprintName = "Pirate Adventure"
             ReferencedContainer = "container:Pirate Adventure.xcodeproj">
          </BuildableReference>
